@@ -1,22 +1,3 @@
---[[
-
-HOW TO USE:
-
-- Equip any mask
-- Hold out a boombox when executing
-- Execute this script!
-
-]]--
-
---Settings:
-
-getgenv().LevitationAnim = true -- Set to true if you want your character to have a levitation animation!
-getgenv().Keybind = "E" -- Set to whatever keybind you want!
-getgenv().NoClip = false -- Will make your invisible character no clip!
-getgenv().AudioID = 4929575301 -- Recommended audio IDs: "4929575301" (jumpscare) or "7481193560" (humming) or "5602666105" (scooby doo laugh) or "8043608622" (HEHEHEHA)
-getgenv().NoLegs = true -- Set to true if you want your real character to have no legs!
-getgenv().NoFace = true -- Set to true if you don't want your real character to have a face! (Setting this to true makes your character look cleaner)
-
 _, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 
 
