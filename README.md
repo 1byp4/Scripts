@@ -1,3 +1,3 @@
-# Scripts by 1byp4#2904
+# Scripts by 1byp4
 
-Discord server: discord.gg/TJmqs345WY
+i know a bit of lua
