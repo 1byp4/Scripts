@@ -751,7 +751,7 @@ function library:Introduction()
     xsxLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
     xsxLogo.Size = UDim2.new(0, 448, 0, 150)
     xsxLogo.Visible = true
-    xsxLogo.Image = "rbxassetid://73119403907792"
+    xsxLogo.Image = "http://www.roblox.com/asset/?id=73119403907792"
     xsxLogo.ImageColor3 = Color3.fromRGB(255, 115, 115)
     xsxLogo.ImageTransparency = 1
     
@@ -763,7 +763,7 @@ function library:Introduction()
     hashLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
     hashLogo.Size = UDim2.new(0, 150, 0, 150)
     hashLogo.Visible = true
-    hashLogo.Image = "rbxassetid://73119403907792"
+    hashLogo.Image = "http://www.roblox.com/asset/?id=73119403907792"
     hashLogo.ImageColor3 = Color3.fromRGB(255, 115, 115)
     hashLogo.ImageTransparency = 1
     
@@ -773,7 +773,7 @@ function library:Introduction()
     xsx.BackgroundTransparency = 1.000
     xsx.Size = UDim2.new(0, 80, 0, 21)
     xsx.Font = Enum.Font.Code
-    xsx.Text = "Powered by 1byp4"
+    xsx.Text = "Titan Hub"
     xsx.TextColor3 = Color3.fromRGB(124, 124, 124)
     xsx.TextSize = 10.000
     xsx.TextTransparency = 1
