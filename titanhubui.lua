@@ -688,7 +688,6 @@ function library:Introduction()
     local xsxLogo = Instance.new("ImageLabel")
     local hashLogo = Instance.new("ImageLabel")
     local xsx = Instance.new("TextLabel")
-    local text = Instance.new("TextLabel")
     local pageLayout = Instance.new("UIListLayout")
     
     introduction.Name = "introduction"
@@ -778,19 +777,6 @@ function library:Introduction()
     xsx.TextSize = 10.000
     xsx.TextTransparency = 1
     
-    text.Name = "text"
-    text.Parent = background
-    text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    text.BackgroundTransparency = 1.000
-    text.Position = UDim2.new(0.912751675, 0, 0, 0)
-    text.Size = UDim2.new(0, 26, 0, 21)
-    text.Font = Enum.Font.Code
-    text.Text = "hash"
-    text.TextColor3 = Color3.fromRGB(124, 124, 124)
-    text.TextSize = 10.000
-    text.TextTransparency = 1
-    text.RichText = true
-    
     pageLayout.Name = "pageLayout"
     pageLayout.Parent = introduction
     pageLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
@@ -812,7 +798,6 @@ function library:Introduction()
     TweenService:Create(bar, TweenTable["introduction"], {Size = UDim2.new(0, 298, 0, 1)}):Play()
     wait(.2)
     TweenService:Create(xsx, TweenTable["introduction"], {TextTransparency = 0}):Play()
-    TweenService:Create(text, TweenTable["introduction"], {TextTransparency = 0}):Play()
     wait(.3)
     TweenService:Create(xsxLogo, TweenTable["introduction"], {ImageTransparency = 0}):Play()
     wait(2)
@@ -821,8 +806,6 @@ function library:Introduction()
     TweenService:Create(hashLogo, TweenTable["introduction"], {ImageTransparency = 0}):Play()
     wait(2)
     TweenService:Create(hashLogo, TweenTable["introduction"], {ImageTransparency = 1}):Play()
-    wait(.1)
-    TweenService:Create(text, TweenTable["introduction"], {TextTransparency = 1}):Play()
     wait(.1)
     TweenService:Create(xsx, TweenTable["introduction"], {TextTransparency = 1}):Play()
     wait(.1)
