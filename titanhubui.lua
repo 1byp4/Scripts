@@ -751,7 +751,6 @@ function library:Introduction()
     xsxLogo.Size = UDim2.new(0, 448, 0, 150)
     xsxLogo.Visible = true
     xsxLogo.Image = "http://www.roblox.com/asset/?id=73119403907792"
-    xsxLogo.ImageTransparency = 0
     
     hashLogo.Name = "hashLogo"
     hashLogo.Parent = background
@@ -762,13 +761,14 @@ function library:Introduction()
     hashLogo.Size = UDim2.new(0, 150, 0, 150)
     hashLogo.Visible = true
     hashLogo.Image = "http://www.roblox.com/asset/?id=73119403907792"
-    hashLogo.ImageTransparency = 0
     
     xsx.Name = "TitanHub"
     xsx.Parent = background
     xsx.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     xsx.BackgroundTransparency = 1.000
+    xsx.Position = UDim2.new(0.5, 0, 0, 0)
     xsx.Size = UDim2.new(0, 80, 0, 21)
+    xsx.AnchorPoint = Vector2.new(0.5, 0.5)
     xsx.Font = Enum.Font.Code
     xsx.Text = "Titan Hub"
     xsx.TextColor3 = Color3.fromRGB(124, 124, 124)
